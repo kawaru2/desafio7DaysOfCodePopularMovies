@@ -1,0 +1,76 @@
+@media (max-width: 1024px) {
+  .tituloEAvaliacao {
+    width: 25%;
+  }
+
+  #listaFilmes {
+    width: 80%;
+  }
+
+  .tituloDoFilme {
+    font-size: 1.2rem;
+  }
+
+  .biografiaDoFilme {
+    width: 40%;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  #search {
+    width: 90%;
+    text-indent: 10px;
+  }
+
+  #search::placeholder {
+    font-size: 1rem;
+  }
+
+  #listaFilmes {
+    width: 100%;
+    gap: 70px;
+  }
+
+  #favoritos {
+    margin-right: 20px;
+  }
+
+  .opcoesFilmes {
+    border-radius: 0;
+    padding: 30px 10px;
+  }
+
+  .capaDoFilme {
+    width: 70px;
+    height: 70px;
+  }
+
+  .tituloDoFilme {
+    font-size: 1rem;
+  }
+
+  .tituloEAvaliacao {
+    width: 35%;
+  }
+
+  .imgAvaliacao {
+    width: 12px;
+    height: 12px;
+    align-self: center;
+  }
+
+  .btnFavoritar {
+    width: 12px;
+    height: 12px;
+  }
+
+  .favoritarFilme, .valorAvaliacao {
+    font-size: .8rem;
+  }
+
+  .biografiaDoFilme {
+    font-size: .8rem;
+    width: 35%;
+  }
+}
